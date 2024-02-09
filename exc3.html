@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="exc3.css">
+</head>
+<body>
+    <header>
+        <h1>Vamos Contar</h1>
+    </header>
+    <section>
+        <div id="msg">
+            <p>
+                inicio:
+                <input type="number" name="txtini" id="txtini" min="0"><br>
+                Fim:
+                <input type="number" name="txtfim" id="txtfim" min="0"><br>
+                Passo:
+                <input type="number" name="txtpss" id="txtpss" min="0"><br>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div id="res">
+            Preparando Contagem...
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Cursoemvideo</p>
+    </footer>
+    <script src="exc3.js"></script>
+</body>
+</html>
